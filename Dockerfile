@@ -1,7 +1,7 @@
 # base image  
 FROM python:3.10
 # setup environment variable  
-ENV DockerHOME=/django_zadanie
+ENV DockerHOME=/django_zadanie/manage.py
 
 # set work directory  
 RUN mkdir -p $DockerHOME  
